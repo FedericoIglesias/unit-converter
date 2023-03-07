@@ -10,7 +10,6 @@ export default function SelectSmall({ calculator, units }) {
     };
     
     React.useEffect(() => {
-        console.log(unit)
         calculator(unit)
         units(unit)
     }, [unit])
